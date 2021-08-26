@@ -35,7 +35,7 @@ $alunni = [
 ];
 
 for($i = 0;$i < count($alunni); $i++) {
-    echo "{$alunni[$i] ['nome']} <br/> {$alunni[$i] ['cognome']} <br/> {$alunni[$i] ['voti']} <hr/>";
+    echo "{$alunni[$i] ['nome']} <br/> {$alunni[$i] ['cognome']} <br/> {$alunni ['voti']} <hr/>";
 }
 
 ?>

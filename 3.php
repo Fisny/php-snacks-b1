@@ -14,23 +14,10 @@ https://www.codepile.net/pile/R2K5d68z
 $posts = [
 
     '10/01/2019' => [
-        [
-            'title' => 'Post 1',
-            'author' => 'Michele Papagni',
-            'text' => 'Testo post 1'
-        ],
-        [
-            'title' => 'Post 2',
-            'author' => 'Michele Papagni',
-            'text' => 'Testo post 2'
-        ],
+        ["post1", "post2", "post3"]
     ],
     '10/02/2019' => [
-        [
-            'title' => 'Post 3',
-            'author' => 'Michele Papagni',
-            'text' => 'Testo post 3'
-        ]
+
     ],
     '15/05/2019' => [
         [
