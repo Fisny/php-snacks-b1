@@ -12,26 +12,30 @@ Stampare nome, cognome e la media dei voti di ogni alunno.
 $alunni = [
     'Classe A' => [
         [
-            "Nome" => "Bardi",
-            "Cognome" => "Fisniku",
+            "nome" => "Bardi",
+            "cognome" => "Fisniku",
             'voti' =>[8, 7, 6]
         ]
     ],
     'Classe B' => [
         [
-            "Nome" => "Dario",
-            "Cognome" => "Rossi",
+            "nome" => "Dario",
+            "cognome" => "Rossi",
             'voti' =>[6, 7, 7]
         ]
     ],
     'Classe c' => [
         [
-            "Nome" => "Luca",
-            "Cognome" => "Ianni",
+            "nome" => "Luca",
+            "cognome" => "Ianni",
             'voti' =>[8, 8, 7]
         ]
     ]
 
-]
+];
+
+for($i = 0; $i < count($alunni); $i++) {
+    echo "{$alunni[$i] 'nome: ' ['nome']} <br/> {$alunni[$i] 'cognome: ' ['cognome']} <br/> {$alunni[$i] 'voti: ' ['voti']} <hr/>";
+}
 
 ?>
