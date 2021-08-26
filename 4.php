@@ -30,12 +30,12 @@ $alunni = [
             "cognome" => "Ianni",
             'voti' =>[8, 8, 7]
         ]
-    ]
+    ],
 
 ];
 
-for($i = 0; $i < count($alunni); $i++) {
-    echo "{$alunni[$i] 'nome: ' ['nome']} <br/> {$alunni[$i] 'cognome: ' ['cognome']} <br/> {$alunni[$i] 'voti: ' ['voti']} <hr/>";
+for($i = 0;$i < count($alunni); $i++) {
+    echo "{$alunni[$i] ['nome']} <br/> {$alunni[$i] ['cognome']} <br/> {$alunni[$i] ['voti']} <hr/>";
 }
 
 ?>
