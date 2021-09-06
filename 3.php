@@ -14,10 +14,23 @@ https://www.codepile.net/pile/R2K5d68z
 $posts = [
 
     '10/01/2019' => [
-        ["post1", "post2", "post3"]
+        [
+            'title' => 'Post 1',
+            'author' => 'Michele Papagni',
+            'text' => 'Testo post 1'
+        ],
+        [
+            'title' => 'Post 2',
+            'author' => 'Michele Papagni',
+            'text' => 'Testo post 2'
+        ],
     ],
     '10/02/2019' => [
-
+        [
+            'title' => 'Post 3',
+            'author' => 'Michele Papagni',
+            'text' => 'Testo post 3'
+        ]
     ],
     '15/05/2019' => [
         [
@@ -37,5 +50,15 @@ $posts = [
         ]
     ],
 ];
+
+foreach ($posts as $date => $postDate ) {
+    echo "<hr>{$date}" . '<hr>';
+    foreach($postDate as $detail) {
+        echo $detail['title'] . '<br>';
+        echo $detail['author'] . '<br>';
+        echo $detail['text'] . '<br>';
+        
+    }
+}
 
 ?>

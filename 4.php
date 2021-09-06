@@ -1,5 +1,7 @@
 <?php
 
+
+
 /*
 Creare un array contenente qualche alunno di un’ipotetica classe.
 Ogni alunno avrà i seguenti dati:
@@ -35,7 +37,14 @@ $alunni = [
 ];
 
 for($i = 0;$i < count($alunni); $i++) {
-    echo "{$alunni[$i] ['nome']} <br/> {$alunni[$i] ['cognome']} <br/> {$alunni ['voti']} <hr/>";
+
+    // var_dump($alunni['Classe A']);
+    for($x = 0; $x < count($alunni[$i]); $x++){
+        echo "{$alunni[$x]['nome']} <br/> {$alunni[$x]['cognome']} <br/> {$alunni[$x]['voti']} <hr/>";
+        var_dump($alunni[$x]); 
+        
+    }
 }
+    
 
 ?>
